@@ -1,0 +1,90 @@
+body{
+    font-family: sans-serif;
+    background-image: url(orphBackG.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+}  
+.container{
+    width: 400px;
+    margin:5% auto;
+    border-radius: 25px;
+    background-color: rgba(0,0,0,0.6);
+    box-shadow: 0 0 17px rgb(16, 156, 77);
+}
+  
+.header{
+    text-align: center;
+    padding-top: 70px;
+
+}
+h1{
+    text-align: center;
+    color: rgb(48, 100, 24);
+    text-shadow: 4px 4px 4px rgb(16, 156, 77);
+}
+.header h1{
+    color: whitesmoke;
+    font-size: 45px;
+    margin-bottom: 80px; 
+ 
+}
+.size{
+    position: absolute;
+    width: 30px;
+    margin-top: 20px;
+    left: 3px;
+    bottom: -3px;
+    
+}
+.main{
+    text-align: center;
+}
+.main button{
+    padding-left: 35px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 40px;
+
+    
+}
+.left{
+    position: absolute;
+    width: 30px;
+    margin-top: 20px;
+    left: 260px;
+    bottom: -5px;
+    cursor: pointer;
+
+    
+}
+.right :hover{
+    background-color: rgb(241, 234, 233);
+}
+
+.main button:hover{
+    box-shadow: 5px 5px 5px #555;
+    background-color: rgb(187, 221, 118);
+    
+}
+
+
+.main button{
+    padding-left: 0;
+    background-color: rgb(63, 172, 63);
+    letter-spacing: 1px;
+    font-weight: bold;
+    border-radius: 9px;
+    
+}
+
+.main span{
+    position: relative;
+}
+.main button{
+    cursor: pointer;
+}
